@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cajero Automatico</title>
+</head>
+<body>
+    <!--DOM-->
+    <section class="formulario">
+<h1>BIENVENIDO A PROBANK</h1>
+
+    <label>Username
+        <input id="username" type="text" aria-describedby="passwordHelpText">
+      </label>
+
+    <label>Password
+        <input id="password" type="password" aria-describedby="passwordHelpText">
+      </label>
+      <p class="help-text" id="passwordHelpText">Ingrese su contraseña.</p>
+
+      <button id="login" class="button primary" href="#" onclick="login()">Login</button>
+    </section>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="login.js"></script>
+</body>         
+</html>
